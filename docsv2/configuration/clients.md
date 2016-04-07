@@ -47,11 +47,11 @@ The `Client` class models an OpenID Connect or OAuth2 client - e.g. a native app
     * When `Custom` flow is used, you also need to specify which custom grant types this client can use.
       Explicitly specify the grant types here (recommended) or set `AllowAccessToAllCustomGrantTypes` to true.
 * `IdentityTokenLifetime`
-    * Lifetime to identity token in seconds (defaults to 300 seconds / 5 minutes)
+    * Lifetime of an identity token in seconds (defaults to 300 seconds / 5 minutes)
 * `AccessTokenLifetime`
-    * Lifetime of access token in seconds (defaults to 3600 seconds / 1 hour)
+    * Lifetime of an access token in seconds (defaults to 3600 seconds / 1 hour)
 * `AuthorizationCodeLifetime`
-    * Lifetime of authorization code in seconds (defaults to 300 seconds / 5 minutes)
+    * Lifetime of an authorization code in seconds (defaults to 300 seconds / 5 minutes)
 * `AbsoluteRefreshTokenLifetime`
     * Maximum lifetime of a refresh token in seconds. Defaults to 2592000 seconds / 30 days
 * `SlidingRefreshTokenLifetime`
